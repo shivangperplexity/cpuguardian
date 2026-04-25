@@ -106,14 +106,7 @@ CONFIG = {
     *   If no expendable apps are found, it checks `disposable_apps` and terminates the highest CPU consumer.
 4.  **UI Interaction:** The frontend uses `fetch()` to poll `/api/stats` every 2 seconds. Clicking a process sends a request to `/api/kill/<pid>` after verifying it isn't protected.
 
----
 
-## 📸 UI Preview
-
-*(You can add a screenshot here by replacing the link below)*
-![Dashboard UI](https://via.placeholder.com/400x700?text=CPU+Guardian+UI+Preview)
-
----
 
 ## 🤝 Contributing
 
